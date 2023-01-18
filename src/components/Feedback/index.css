@@ -1,0 +1,60 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.para {
+  font-size: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.head-1 {
+  color: #0f172a;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.para-1 {
+  font-size: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+}
